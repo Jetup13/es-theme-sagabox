@@ -1,0 +1,272 @@
+<!--
+Theme name:  SagaBox
+Theme by:    Jetup13
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+
+    <!--Systemview-->
+    <view name="system">
+	<image name="background" extra="true">
+        <path>./_art/background/backgroundheader.png</path>
+        <tile>false</tile>
+        <size>1 1</size>
+        <pos>0 0</pos>
+        <origin>0 0</origin>
+		<zIndex>3</zIndex>
+    </image>
+	
+    <image name="characters" extra="true">
+        <path>./_art/characters/${system.theme}.png</path>
+        <tile>false</tile>
+        <origin>0 0</origin>
+		<zIndex>3</zIndex>
+    </image>
+
+    <carousel name="systemcarousel">
+        <type>vertical</type>
+        <pos>0.0 0.0</pos>
+        <logoAlignment>left</logoAlignment>         
+        <size>1 1</size>
+        <logoScale>1.5</logoScale>
+        <zIndex>5</zIndex>          
+        <logoSize>0.27 0.27</logoSize>
+        <color>00000000</color>
+        <maxLogoCount>3</maxLogoCount>       
+    </carousel>
+	
+	<image name="logo">
+		<path>./_art/logos/${system.theme}.png</path>
+	</image>
+	
+    <text name="systemInfo">
+        <fontPath>./_art/Acre.otf</fontPath>
+        <backgroundColor>00000000</backgroundColor>
+        <forceUppercase>1</forceUppercase>
+        <origin>0 0</origin>
+        <pos>0.55 0.01</pos>
+        <size>0.400 0.039</size>
+        <fontSize>0.044</fontSize>
+		<zIndex>5</zIndex>
+    </text>
+    </view>
+	
+    <!--Basic-->
+    <view name="basic">
+	<image name="background" extra="true">
+        <tile>false</tile>
+        <path>./_art/background/background.png</path>
+        <size>1 1</size>
+        <pos>0 0</pos>
+		<zIndex>3</zIndex>
+    </image>
+	<image name="logo">
+        <path>./_art/logos/${system.theme}.png</path>
+        <maxSize>.35 .35</maxSize>
+        <pos>0.5 0.03</pos>
+		<zIndex>3</zIndex>
+    </image>
+	<textlist name="gamelist">
+		<selectorColor>fffffff00</selectorColor>
+        <primaryColor>ffffff</primaryColor>
+        <secondaryColor>888888</secondaryColor>
+        <fontPath>./_art/Acre.otf</fontPath>
+        <alignment>center</alignment>
+        <horizontalMargin>0.01</horizontalMargin>
+        <origin>0 0</origin>
+        <lineSpacing>1.5</lineSpacing>
+	</textlist>
+	</view>
+	
+    <!--Detailed and Video views-->
+    <view name="detailed, video">
+
+    <image name="background" extra="true">
+        <tile>false</tile>
+        <path>./_art/background/backgroundheader.png</path>
+        <size>1 1</size>
+        <pos>0 0</pos>
+		<zIndex>3</zIndex>
+    </image>
+	
+    <image name="logo">
+        <path>./_art/logos/${system.theme}.png</path>
+        <maxSize>.3 .3</maxSize>
+        <pos>0.75 0.03</pos>
+		<zIndex>4</zIndex>
+    </image>
+
+    <textlist name="gamelist">
+	    <selectorColor>fffffff00</selectorColor>
+        <primaryColor>ffffff</primaryColor>
+        <secondaryColor>888888</secondaryColor>
+        <fontPath>./_art/Acre.otf</fontPath>
+		<pos>0 0</pos>
+        <alignment>left</alignment>
+        <horizontalMargin>0.01</horizontalMargin>
+        <origin>0 0</origin>
+    </textlist>
+	
+	<video name="md_video">
+      <origin>0.5 0.5</origin>
+      <delay>0.7</delay>
+      <showSnapshotNoVideo>true</showSnapshotNoVideo>
+      <showSnapshotDelay>true</showSnapshotDelay>
+      <snapshotSource>image</snapshotSource>
+    </video>
+    </view>
+	
+	<!--Release and rating data for detailed and video views-->
+    <view name="detailed,video">
+      <text name="md_lbl_releasedate, md_lbl_rating, md_rating, md_releasedate">
+         <fontPath>./_art/Acre.otf</fontPath>
+         <fontSize>0.03</fontSize>
+      </text>  
+      <rating name="md_rating">
+         <origin>0.5 0.5</origin>       
+         <pos>0.77 0.35</pos>
+         <size>0.05 0.05</size>
+         <zIndex>4</zIndex>
+         <filledPath>./_art/assets/star.png</filledPath>
+         <unfilledPath>./_art/assets/star_hollow.png</unfilledPath>
+      </rating>
+      <text name="md_lbl_rating">
+         <origin>0.5 0.5</origin>
+         <pos>0.9 0.35</pos>
+         <size>0.6 0.6</size>
+         <color>ffffff</color>
+         <zIndex>4</zIndex>
+      </text> 
+      <text name="md_lbl_releasedate">
+         <origin>0.5 0.5</origin>
+         <pos>0.9 0.31</pos>
+         <size>0.6 0.6</size>
+         <color>ffffff</color>
+         <zIndex>4</zIndex>                  
+      </text>
+      <datetime name="md_releasedate">
+         <origin>0.5 0.5</origin>
+         <pos>1.072 0.31</pos>
+		 <format>%Y</format>
+         <size>0.6 0.6</size>
+         <color>ffffff</color>
+         <zIndex>4</zIndex>         
+      </datetime>
+   </view>
+
+    <!-- Gridview -->
+    <view name="grid">
+	
+    <imagegrid name="gamegrid">
+		<margin>0.050 0.010</margin>
+        <pos>0.015 0.5</pos>
+	    <scrollDirection>horizontal</scrollDirection>
+		<autoLayout>3 1</autoLayout>
+		<autoLayoutSelectedZoom>1.0</autoLayoutSelectedZoom>
+		<centerSelection>true</centerSelection>
+		<scrollLoop>true</scrollLoop>
+    </imagegrid>
+	
+    <text name="gridtile">
+        <color>00000000</color>
+        <backgroundColor>00000000</backgroundColor>
+        <fontPath>./_art/AdobeBlank.ttf</fontPath>
+        <fontSize>0.01</fontSize>
+	    <alignment>center</alignment>
+	    <visible>false</visible>
+    </text>
+	
+    <ninepatch name="gridtile.background:selected">
+      <animateColor>FFFFFF</animateColor>
+      <animateColorTime>800</animateColorTime>
+    </ninepatch>
+	
+    <image name="background" extra="true">
+        <path>./_art/background/backgroundheader.png</path>
+        <tile>false</tile>
+        <size>1 1</size>
+        <pos>0 0</pos>
+        <origin>0 0</origin>
+		<zIndex>3</zIndex>
+    </image>
+		
+	<text name="md_name">
+        <pos>0.003 -0.03</pos>
+	    <fontPath>./_art/Acre.otf</fontPath>
+        <fontSize>0.04</fontSize>
+        <size>1 0.10</size>
+		<forceUppercase>1</forceUppercase>
+        <alignment>left</alignment>
+    </text>
+	
+    <video name="md_video">
+        <origin>0.5 0.5</origin>
+		<delay>1</delay>
+        <zIndex>50</zIndex>
+	</video>
+		
+	<image name="logo">
+	    <color>00000000</color>
+	    <path>./assets/box.png</path>
+		<pos>1 1</pos>
+	</image>
+
+    <gridtile name="default">
+        <backgroundColor>FFFFFF00</backgroundColor>
+        <backgroundCornerSize>9 9</backgroundCornerSize>
+        <selectionMode>image</selectionMode>
+        <padding>5 5</padding>
+    </gridtile>
+	
+    <text name="md_description">
+		<fontPath>./_art/Acre.otf</fontPath>
+	    <color>FFFFFF99</color>
+        <fontSize>0.03</fontSize>
+	    <alignment>left</alignment>
+        <forceUppercase>0</forceUppercase>
+        <lineSpacing>1</lineSpacing>
+	    <pos>0.003 0.08</pos>
+	    <size>0.464 0.42</size>
+    </text>
+    </view>
+
+    <view name="screen">
+   
+    <text name="clock">
+	  <fontPath>./_art/Acre.otf</fontPath>
+      <fontSize>0.035</fontSize>
+      <pos>0.88 -0.01</pos>
+      <size>0.2 0.058</size>
+      <alignment>left</alignment>
+      <verticalAlignment>center</verticalAlignment>
+    </text>
+    </view>
+	
+	<view name="system,basic,video,detailed,grid">
+    <helpsystem name="help">
+        <fontPath>./_art/Acre.otf</fontPath>
+         <fontSize>0.036</fontSize>     
+         <pos>0.041 0.955</pos>  
+        <textColor>101010</textColor>
+        <iconColor>101010</iconColor>
+		<zIndex>6</zIndex>
+    </helpsystem>
+	</view>
+	
+	<variables>
+	     <hidehelpbarSubsetName>Hide Help Bar</hidehelpbarSubsetName>
+		 <gamelistfontSubsetName>Gamelist Font Size</gamelistfontSubsetName>
+    </variables>
+	
+	<subset name="hidehelpbar" displayName="${hidehelpbarSubsetName}">
+         <include name="no">./_art/extra/header/showhelpbar.xml</include>
+		 <include name="yes">./_art/extra/header/hidehelpbar.xml</include>
+    </subset>
+	
+	<subset name="gamelistfont" displayName="${gamelistfontSubsetName}">
+         <include name="default">./_art/extra/fontsize/default.xml</include>
+		 <include name="small">./_art/extra/fontsize/small.xml</include>
+    </subset>
+	
+</theme>

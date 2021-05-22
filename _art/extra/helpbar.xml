@@ -1,0 +1,16 @@
+<!--
+Once I add back help bar
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+
+   	<view name="system,basic,detailed,video,grid">
+    <image name="helpbar" extra="true">
+		<path>./../assets/helpbar.png</path>
+		<pos>0 .95</pos>
+		<zIndex>5</zIndex>
+    </image>
+	</view>
+	
+</theme>

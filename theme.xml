@@ -1,0 +1,56 @@
+<!--
+Theme name:  SagaBox
+Theme by:    Jetup13
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+
+    <include>./_art/extra/hidden.xml</include>
+	<include>./_art/extra/helpbar.xml</include>
+  	<variables>
+	    <fullscreenfixSubsetname>Emulationstation Screen Size</fullscreenfixSubsetname>
+		<colorSubsetname>Color</colorSubsetname>
+	</variables>
+	
+	<subset name="fullscreenfix" displayName="${fullscreenfixSubsetname}">
+	    <include name="ES Header" displayName="${ES Header}">./header.xml</include>
+        <include name="ES Fullscreen" displayName="${ES Fullscreen}">./fullscreen.xml</include>
+		<include name="351V" displayName="${351V}">./fullscreenv.xml</include>
+		<include name="OGS" displayName="${OGS}">./OGS.xml</include>
+    </subset>
+	
+	<subset name="color" displayName="${colorSubsetname}">
+        <include name="Blue" displayName="${Blue}">./_art/color/blue.xml</include>
+		<include name="Green" displayName="${Green}">./_art/color/Green.xml</include>
+        <include name="Mint" displayName="${Mint}">./_art/color/mint.xml</include>
+		<include name="Orange" displayName="${Orange}">./_art/color/Orange.xml</include>
+		<include name="Purple" displayName="${Purple}">./_art/color/purple.xml</include>
+		<include name="Red" displayName="${Red}">./_art/color/red.xml</include>
+		<include name="Yellow" displayName="${Yellow}">./_art/color/yellow.xml</include>
+    </subset>
+	
+    <view name="menu">
+    <menuBackground name="menubg">
+	 <color>202020</color>
+    </menuBackground>
+	
+	<menuText name="menutext, menutitle">
+	  <fontPath>./_art/Acre.otf</fontPath>
+	  <fontSize>.038</fontSize>
+	  <color>ffffff</color>
+	</menuText>
+	
+	<menuText name="menufooter, menutextsmall">
+      <fontPath>./_art/Acre.otf</fontPath>
+      <fontSize>.029</fontSize>		 
+      <color>ffffff</color>
+    </menuText>
+	
+	<menuTextEdit name="menutextedit">
+      <inactive>./_art/assets/textinput_inactive.png</inactive>
+      <active>./_art/assets/textinput_active.png</active>
+    </menuTextEdit>
+	</view>
+	
+</theme>

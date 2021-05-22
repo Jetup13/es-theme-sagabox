@@ -1,0 +1,14 @@
+<!--
+Once I add back help bar
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+
+    <view name="system,basic,video,detailed,grid">
+    <helpsystem name="help">
+        <fontSize>0.030</fontSize>
+    </helpsystem>
+	</view>
+	
+</theme>

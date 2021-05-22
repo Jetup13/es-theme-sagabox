@@ -1,0 +1,55 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<variables>
+		<mainColor>00FF00</mainColor>
+	</variables>
+	
+    <view name="system">
+    <image name="trim" extra="true">
+		<color>${mainColor}</color>
+    </image>
+	
+    <text name="systemInfo">
+        <color>${mainColor}</color>
+    </text>
+	
+	<text name="shortdescription" extra="true">
+        <color>${mainColor}</color>
+    </text>
+    </view>
+	
+	<view name="basic, detailed, video">
+	<textlist name="gamelist">
+        <selectedColor>${mainColor}</selectedColor>
+    </textlist>
+	</view>
+	
+	<view name="grid">
+	<text name="md_name">
+	    <color>${mainColor}</color>
+    </text>
+	<ninepatch name="gridtile.background:selected">
+      <animateColor>${mainColor}</animateColor>
+    </ninepatch>
+	</view>
+	
+    <view name="screen">
+    <text name="clock">
+        <color>${mainColor}</color>
+    </text>
+    </view>
+	
+    <view name="menu">
+	<menuText name="menutext, menutitle">
+        <separatorColor>${mainColor}</separatorColor>
+	</menuText>
+    </view>
+	
+	<view name="system,basic,detailed,video,grid">
+    <image name="helpbar" extra="true">
+		<color>${mainColor}</color>
+    </image>
+	</view>
+ 
+</theme>

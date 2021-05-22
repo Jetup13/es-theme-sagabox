@@ -1,0 +1,18 @@
+<theme>
+<formatVersion>7</formatVersion>
+	
+    <!--Basic-->
+    <view name="basic">
+	<textlist name="gamelist">
+        <fontSize>0.032</fontSize>
+	</textlist>
+	</view>
+	
+    <!--Detailed and Video views-->
+    <view name="detailed, video">
+    <textlist name="gamelist">
+        <fontSize>0.032</fontSize>
+    </textlist>
+    </view>
+	
+</theme>

@@ -1,0 +1,127 @@
+<theme>
+<formatVersion>7</formatVersion>
+
+	<!--Hidden-->
+	
+	<view name="basic,video,detailed,grid">
+	
+    <text name="md_lbl_players">
+		 <visible>false</visible>
+    </text>
+     
+	<text name="md_players">
+		 <visible>false</visible>
+    </text>
+	
+    <image name="md_marquee">
+		 <visible>false</visible>
+    </image>
+	
+    <text name="logoText">
+		 <visible>false</visible>
+    </text>
+	
+	<text name="nameLabel" extra="true">
+         <visible>false</visible>
+    </text>
+	</view>
+	
+	<customView name="Switch Grid" inherits="grid">
+	<text name="md_lbl_releasedate">
+		 <visible>false</visible>  
+    </text>
+	
+    <datetime name="md_releasedate">
+		 <visible>false</visible>
+    </datetime>
+	 
+    <text name="md_lbl_rating">
+		 <visible>false</visible>
+    </text>  
+	 
+    <rating name="md_rating">
+		 <visible>false</visible>
+    </rating>
+	
+    <text name="md_lbl_players">
+		 <visible>false</visible>
+    </text>
+     
+	<text name="md_players">
+		 <visible>false</visible>
+    </text>
+	
+    <image name="md_marquee">
+		 <visible>false</visible>
+    </image>
+	
+    <text name="logoText">
+		 <visible>false</visible>
+    </text>
+	
+	<text name="nameLabel" extra="true">
+         <visible>false</visible>
+    </text>
+    </customView>
+	
+	<customView name="Showcase Grid" inherits="grid">
+	<text name="md_lbl_releasedate">
+		 <visible>false</visible>  
+    </text>
+	
+    <datetime name="md_releasedate">
+		 <visible>false</visible>
+    </datetime>
+	 
+    <text name="md_lbl_rating">
+		 <visible>false</visible>
+    </text>  
+	 
+    <rating name="md_rating">
+		 <visible>false</visible>
+    </rating>
+	
+    <text name="md_lbl_players">
+		 <visible>false</visible>
+    </text>
+     
+	<text name="md_players">
+		 <visible>false</visible>
+    </text>
+	
+    <image name="md_marquee">
+		 <visible>false</visible>
+    </image>
+	
+    <text name="logoText">
+		 <visible>false</visible>
+    </text>
+	
+	<text name="nameLabel" extra="true">
+         <visible>false</visible>
+    </text>
+    </customView>
+	
+	<view name="system">
+    <text name="logoText">
+		 <visible>false</visible>
+    </text>
+	
+	<text name="shortdescription" extra="true">
+		<visible>false</visible>
+    </text>
+    
+    <text name="longdescription" extra="true">
+        <visible>false</visible>
+    </text>
+	
+	<text name="sys_line1" extra="true">
+		<visible>false</visible>
+    </text>
+    
+    <text name="sys_line2" extra="true">
+        <visible>false</visible>
+    </text>
+	</view>
+	
+</theme>
