@@ -17,7 +17,7 @@ Theme by:    Jetup13
 	    <include name="ES Header" displayName="${ES Header}">./header.xml</include>
         <include name="ES Fullscreen" displayName="${ES Fullscreen}">./fullscreen.xml</include>
 		<include name="351V" displayName="${351V}">./fullscreenv.xml</include>
-		<include name="OGS" displayName="${OGS}">./OGS.xml</include>
+		<include name="OGS" displayName="${OGS}">./ogs.xml</include>
     </subset>
 	
 	<subset name="color" displayName="${colorSubsetname}">
