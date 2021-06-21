@@ -4,20 +4,20 @@
 
 <view name="basic, detailed, video, grid">
     <text name="nameLabel" extra="true">
-    <text>ResidualVM</text>
+    <text>TIC-80</text>
   </text>
 </view>    
 
 <view name="system">
   <text name="sys_line2" extra="true">
-    <text>ResidualVM</text>
+    <text>TIC-80</text>
 
-  </text> 
+  </text>   
   <text name="shortdescription" extra="true">
-   <text>Cross Platform Computer</text>
+   <text>2017  ·  Fantasy Computer</text>
   </text>
   <text name="longdescription" extra="true">
-   <text>ResidualVM is a cross-platform 3D game interpreter which allows you to play LucasArts' Lua-based 3D adventures</text>
+   <text>TIC-80 is a fantasy computer for making, playing and sharing tiny games.</text>
   </text>
  </view>
 </theme>

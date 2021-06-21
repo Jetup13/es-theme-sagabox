@@ -4,24 +4,19 @@
 
 <view name="basic, detailed, video, grid">
   <text name="nameLabel" extra="true">
-    <text>Sega Mega CD</text>
+    <text>MPlayer</text>
   </text>
 </view>    
 
 <view name="system">
-  <text name="sys_line1" extra="true">
-    <text>Sega</text>
-
-  </text>
   <text name="sys_line2" extra="true">
-    <text>Mega CD</text>
-
+    <text>MPlayer</text>
 </text>
   <text name="shortdescription" extra="true">
-   <text>1991  ·  Home Console</text>
+   <text>Media Player</text>
   </text>
   <text name="longdescription" extra="true">
-   <text>CD-ROM add-on to the Megadrive, it launched many FMV games, including the infamous Night Trap, which led to the creation of the ESRB</text>
+   <text>Media Player for videos. Supported formats: .mp4 .avi .mpeg .mkv</text>
   </text>
  </view>
 </theme>
