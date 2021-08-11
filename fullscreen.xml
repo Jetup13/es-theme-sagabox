@@ -115,6 +115,7 @@ Theme by:    Jetup13
       <showSnapshotNoVideo>true</showSnapshotNoVideo>
       <showSnapshotDelay>true</showSnapshotDelay>
       <snapshotSource>image</snapshotSource>
+	  <effect>none</effect>
     </video>
     </view>
 	
@@ -206,6 +207,7 @@ Theme by:    Jetup13
         <pos>0.74 0.3</pos>
 		<delay>1</delay>
         <zIndex>50</zIndex>
+		<effect>none</effect>
 	</video>
 		
 	<image name="logo">
