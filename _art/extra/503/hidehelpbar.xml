@@ -1,0 +1,137 @@
+<theme>
+<formatVersion>7</formatVersion>
+
+   	<view name="system,basic,detailed,video,grid">
+    <image name="helpbar" extra="true">
+		<visible>false</visible>
+    </image>
+	</view>
+
+    <!--Systemview-->
+    <view name="system">
+    <image name="characters" extra="true">
+	    <maxSize>1 1</maxSize>
+        <pos>0.438 0</pos>
+    </image>
+    </view>
+	
+    <!--Basic-->
+    <view name="basic">
+	<textlist name="gamelist">
+		<pos>0 0.3</pos>
+        <size>1 .7</size>
+	</textlist>
+	</view>
+	
+    <!--Detailed and Video views-->
+    <view name="detailed, video">
+    <textlist name="gamelist">
+        <size>0.52 1</size>
+    </textlist>
+	
+	<video name="md_video">
+      <pos>0.75 0.70</pos>
+      <maxSize>0.45 0.55</maxSize>
+    </video>
+    </view>
+
+    <!-- Gridview -->
+    <view name="grid">
+    <imagegrid name="gamegrid">
+        <pos>0.015 0.5</pos>
+        <size>0.970 0.5</size>
+    </imagegrid>
+	
+    <video name="md_video">
+        <maxSize>0.4 0.5</maxSize>
+	</video>
+    </view>
+	
+    <customView name="Switch Grid" inherits="grid">
+        <imagegrid name="gamegrid">
+		<margin>0.050 0.010</margin>
+        <pos>0.025 0.10</pos>
+        <size>0.950 0.84</size>
+	    <scrollDirection>horizontal</scrollDirection>
+		<autoLayout>3 1</autoLayout>
+		<autoLayoutSelectedZoom>1.00</autoLayoutSelectedZoom>
+		<centerSelection>true</centerSelection>
+		<scrollLoop>true</scrollLoop>
+    </imagegrid>
+	
+	 <text name="md_description">
+		<visible>false</visible>
+    </text>
+	
+    <video name="md_video">
+		<pos>0.5 0.5</pos>
+		<minSize>1 1</minSize>
+		<maxSize>1.4 1.4</maxSize>
+		<origin>0.5 0.5</origin>
+		<delay>1.5</delay>
+        <zIndex>50</zIndex>
+	</video>
+    </customView>
+	
+    <customView name="Showcase Grid" inherits="grid">
+	<imagegrid name="gamegrid">
+      <pos>0 0</pos>
+      <size>1 1</size>
+      <margin>0.005 0.010</margin>
+      <padding>0.1 0.0 0.1 0.0</padding>
+      <autoLayout>3 1</autoLayout>
+      <autoLayoutSelectedZoom>1.2</autoLayoutSelectedZoom>
+      <animateSelection>false</animateSelection>
+      <scrollDirection>horizontal</scrollDirection>
+      <centerSelection>true</centerSelection>
+      <scrollLoop>true</scrollLoop>
+	  <zIndex>6</zIndex>
+    </imagegrid>
+	
+    <gridtile name="default">
+      <backgroundColor>FFFFFF00</backgroundColor>
+      <backgroundCornerSize>9 9</backgroundCornerSize>
+      <selectionMode>image</selectionMode>
+      <padding>5 5</padding>
+      <imageColor>FFFFFF90</imageColor>
+      <reflexion>0.24 0.0</reflexion>
+	  <zIndex>6</zIndex>
+    </gridtile>
+	
+    <gridtile name="selected">
+      <backgroundColor>FFFFFF00</backgroundColor>
+      <imageColor>FFFFFFFF</imageColor>
+	  <zIndex>6</zIndex>
+    </gridtile>
+	
+    <image name="background" extra="true">
+       <path>./_art/background/background.png</path>
+		<tile>false</tile>
+        <size>1 1</size>
+        <pos>0 0</pos>
+        <origin>0 0</origin>
+		<zIndex>3</zIndex>
+    </image>
+	
+	<text name="md_description">
+		<visible>false</visible>
+    </text>
+	
+	 <image name="art" extra="true">
+        <visible>false</visible>
+    </image>
+	
+    <image name="foregroundgrid" extra="true">
+        <visible>false</visible>
+    </image>
+	
+	<image name="foregroundgrid2" extra="true">
+        <visible>false</visible>
+    </image>
+	
+	<video name="md_video">
+        <visible>false</visible>
+    </video>
+	</customView>
+	
+</theme>
