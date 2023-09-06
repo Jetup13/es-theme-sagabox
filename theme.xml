@@ -19,6 +19,7 @@ Theme by:    Jetup13
 		<include name="4:3" displayName="${4:3}">./fullscreenv.xml</include>
 		<include name="OGS" displayName="${OGS}">./ogs.xml</include>
 		<include name="RG503" displayName="${RG503}">./503.xml</include>
+		<include name="RGB30" displayName="${RGB30}">./rgb30.xml</include>
     </subset>
 	
 	<subset name="color" displayName="${colorSubsetname}">
