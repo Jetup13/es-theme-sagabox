@@ -45,7 +45,7 @@ Theme by:    Jetup13
         <backgroundColor>00000000</backgroundColor>
         <forceUppercase>1</forceUppercase>
         <origin>0 0</origin>
-        <pos>0.15 0.01</pos>
+        <pos>0.1 0.01</pos>
         <size>1 0.039</size>
         <fontSize>0.04</fontSize>
 		<zIndex>5</zIndex>
@@ -251,7 +251,7 @@ Theme by:    Jetup13
     <helpsystem name="help">
         <fontPath>./_art/Acre.otf</fontPath>     
         <pos>0.00 0.96</pos>  
-		<fontSize>0.024</fontSize>
+		<fontSize>0.022</fontSize>
         <textColor>101010</textColor>
         <iconColor>101010</iconColor>
 		<zIndex>6</zIndex>
