@@ -19,7 +19,7 @@
     <!--Detailed and Video views-->
     <view name="detailed, video">
     <textlist name="gamelist">
-        <size>0.50 .95</size>
+        <size>0.50 .9</size>
         <lineSpacing>1.53</lineSpacing>
     </textlist>
 	
@@ -37,7 +37,7 @@
     </imagegrid>
     </view>
 	
-	    <customView name="Switch Grid" inherits="grid">
+	<customView name="Switch Grid" inherits="grid">
         <imagegrid name="gamegrid">
 		<margin>0.050 0.010</margin>
         <pos>0.025 0.10</pos>

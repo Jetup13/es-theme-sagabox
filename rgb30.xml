@@ -45,7 +45,7 @@ Theme by:    Jetup13
         <backgroundColor>00000000</backgroundColor>
         <forceUppercase>1</forceUppercase>
         <origin>0 0</origin>
-        <pos>0.1 0.01</pos>
+        <pos>0.1 0.005</pos>
         <size>1 0.039</size>
         <fontSize>0.04</fontSize>
 		<zIndex>5</zIndex>
@@ -93,7 +93,7 @@ Theme by:    Jetup13
     <image name="logo">
         <path>./_art/logos/${system.theme}.png</path>
         <maxSize>.35 .35</maxSize>
-        <pos>0.75 0.03</pos>
+        <pos>0.75 0.05</pos>
 		<zIndex>4</zIndex>
     </image>
 
@@ -102,7 +102,7 @@ Theme by:    Jetup13
         <primaryColor>ffffff</primaryColor>
         <secondaryColor>888888</secondaryColor>
         <fontPath>./_art/Acre.otf</fontPath>
-		<pos>0 0</pos>
+		<pos>0 0.05</pos>
         <alignment>left</alignment>
         <horizontalMargin>0.01</horizontalMargin>
         <origin>0 0</origin>
@@ -240,18 +240,17 @@ Theme by:    Jetup13
     <text name="clock">
 	  <fontPath>./_art/Acre.otf</fontPath>
       <fontSize>0.04</fontSize>
-      <pos>0.88 0.00</pos>
-      <size>0.2 0.058</size>
-      <alignment>left</alignment>
-      <verticalAlignment>center</verticalAlignment>
+        <origin>0 0</origin>
+        <pos>0 -0.005</pos>
+        <size>1 0</size>
     </text>
     </view>
 	
     <view name="system,basic,video,detailed,grid">
     <helpsystem name="help">
         <fontPath>./_art/Acre.otf</fontPath>     
-        <pos>0.00 0.96</pos>  
-		<fontSize>0.022</fontSize>
+        <pos>0.00 0.97</pos>  
+		<fontSize>0.020</fontSize>
         <textColor>101010</textColor>
         <iconColor>101010</iconColor>
 		<zIndex>6</zIndex>
