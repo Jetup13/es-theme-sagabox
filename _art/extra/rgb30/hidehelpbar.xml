@@ -26,7 +26,7 @@
     <view name="detailed, video">
     <textlist name="gamelist">
         <size>0.50 .9</size>
-        <lineSpacing>1.53</lineSpacing>
+        <lineSpacing>1.50</lineSpacing>
     </textlist>
 	
 	<video name="md_video">

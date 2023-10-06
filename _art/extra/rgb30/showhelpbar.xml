@@ -12,7 +12,7 @@
 	<view name="basic">
 	<textlist name="gamelist">
         <fontSize>0.036</fontSize>
-        <size>1 .63</size>
+        <size>1 .7</size>
 	</textlist>
 	</view>
 	
@@ -20,7 +20,7 @@
     <view name="detailed, video">
     <textlist name="gamelist">
         <size>0.50 .9</size>
-        <lineSpacing>1.53</lineSpacing>
+        <lineSpacing>1.5</lineSpacing>
     </textlist>
 	
 	<video name="md_video">

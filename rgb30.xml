@@ -71,7 +71,7 @@ Theme by:    Jetup13
         <primaryColor>ffffff</primaryColor>
         <secondaryColor>888888</secondaryColor>
         <fontPath>./_art/Acre.otf</fontPath>
-		<pos>0 0.3</pos>
+		<pos>0 0.2</pos>
         <alignment>center</alignment>
         <horizontalMargin>0.01</horizontalMargin>
         <origin>0 0</origin>
@@ -241,7 +241,7 @@ Theme by:    Jetup13
 	  <fontPath>./_art/Acre.otf</fontPath>
       <fontSize>0.04</fontSize>
         <origin>0 0</origin>
-        <pos>0 -0.005</pos>
+        <pos>0 -0.008</pos>
         <size>1 0</size>
     </text>
     </view>
@@ -249,8 +249,8 @@ Theme by:    Jetup13
     <view name="system,basic,video,detailed,grid">
     <helpsystem name="help">
         <fontPath>./_art/Acre.otf</fontPath>     
-        <pos>0.00 0.97</pos>  
-		<fontSize>0.020</fontSize>
+        <pos>0.00 0.965</pos>  
+		<fontSize>0.023</fontSize>
         <textColor>101010</textColor>
         <iconColor>101010</iconColor>
 		<zIndex>6</zIndex>
