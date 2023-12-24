@@ -1,0 +1,23 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, video, grid">
+    <text name="nameLabel" extra="true">
+    <text>Screenshots</text>
+  </text>
+</view>    
+
+<view name="system">
+  <text name="sys_line2" extra="true">
+    <text>Image Viewer</text>
+
+  </text>    
+  <text name="shortdescription" extra="true">
+   <text>Images</text>
+  </text>
+  <text name="longdescription" extra="true">
+   <text>Screenshots of games you've taken!</text>
+  </text>
+ </view>
+</theme>
