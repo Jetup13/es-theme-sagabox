@@ -24,9 +24,9 @@ Theme by:    Jetup13
 	
 	<subset name="color" displayName="${colorSubsetname}">
         <include name="Blue" displayName="${Blue}">./_art/color/blue.xml</include>
-		<include name="Green" displayName="${Green}">./_art/color/Green.xml</include>
+		<include name="Green" displayName="${Green}">./_art/color/green.xml</include>
         <include name="Mint" displayName="${Mint}">./_art/color/mint.xml</include>
-		<include name="Orange" displayName="${Orange}">./_art/color/Orange.xml</include>
+		<include name="Orange" displayName="${Orange}">./_art/color/orange.xml</include>
 		<include name="Purple" displayName="${Purple}">./_art/color/purple.xml</include>
 		<include name="Red" displayName="${Red}">./_art/color/red.xml</include>
 		<include name="Yellow" displayName="${Yellow}">./_art/color/yellow.xml</include>
