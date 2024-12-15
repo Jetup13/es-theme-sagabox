@@ -39,13 +39,11 @@ Theme by:    Jetup13
 	
 	<menuText name="menutext, menutitle">
 	  <fontPath>./_art/Acre.otf</fontPath>
-	  <fontSize>.038</fontSize>
 	  <color>ffffff</color>
 	</menuText>
 	
 	<menuText name="menufooter, menutextsmall">
-      <fontPath>./_art/Acre.otf</fontPath>
-      <fontSize>.029</fontSize>		 
+      <fontPath>./_art/Acre.otf</fontPath>	 
       <color>ffffff</color>
     </menuText>
 	

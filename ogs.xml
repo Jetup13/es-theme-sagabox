@@ -258,6 +258,16 @@ Theme by:    Jetup13
 		<zIndex>6</zIndex>
     </helpsystem>
 	</view>
+
+    <view name="menu">	
+	<menuText name="menutext, menutitle">
+	  <fontSize>.038</fontSize>
+	</menuText>
+	
+	<menuText name="menufooter, menutextsmall">
+      <fontSize>.029</fontSize>		 
+    </menuText>
+	</view>
 	
 	<variables>
 	     <hidehelpbarSubsetName>Hide Help Bar</hidehelpbarSubsetName>
