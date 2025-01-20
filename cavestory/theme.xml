@@ -10,7 +10,7 @@
 
 <view name="system">
   <text name="sys_line2" extra="true">
-    <text>Cave Dtory</text>
+    <text>Cave Story</text>
 
   </text> 
   <text name="shortdescription" extra="true">
