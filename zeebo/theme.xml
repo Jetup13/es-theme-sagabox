@@ -1,0 +1,23 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, video, grid">
+  <text name="nameLabel" extra="true">
+    <text>Zeebo</text>
+  </text>
+</view>    
+
+<view name="system">
+  <text name="sys_line2" extra="true">
+    <text>Zeebo</text>
+
+</text>
+  <text name="shortdescription" extra="true">
+   <text>2009  ·  Home Console</text>
+  </text>
+  <text name="longdescription" extra="true">
+   <text>The Zeebo is a home entertainment and education system from Zeebo Inc. It enabled users to play video games, and also connect to the Internet using its 3G modem</text>
+  </text>
+ </view>
+</theme>
