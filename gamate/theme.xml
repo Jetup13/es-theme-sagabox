@@ -1,0 +1,27 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, video, grid">
+  <text name="nameLabel" extra="true">
+    <text>Gamate</text>
+  </text>
+</view>    
+
+<view name="system">
+  <text name="sys_line1" extra="true">
+    <text>Bit Corporation</text>
+
+  </text>
+  <text name="sys_line2" extra="true">
+    <text>Gamate</text>
+
+</text>
+  <text name="shortdescription" extra="true">
+   <text>1990  ·  Handheld Console</text>
+  </text>
+  <text name="longdescription" extra="true">
+   <text>The Gamate, known as 超級小子 in Taiwan and 超级神童 in China, is a handheld game console manufactured by Bit Corporation in the early 1990s</text>
+  </text>
+ </view>
+</theme>
